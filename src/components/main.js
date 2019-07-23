@@ -51,7 +51,7 @@ export class OurWork extends React.Component{
           <WhatWeDo title={'Data Integration'} description={'We prioritize collection of useful data in designing compelling customer experiences. Adding science to the art allows you to move from guesswork to inspired predictions, using metrics and analytics to inform changes to your business.'} icon={'./src/styles/icons/svg/001-statistics.svg'} noBorder={0}/>
         </div>
       <Link to='/digital_matters' onClick={()=>{this.props.appState.scrollHeader(); console.log(this.props)}}><div id='learn-div'>
-        <h2 id='learn-text'>Learn why you need a great digital footprint</h2><ion-icon id='learn-arrow' name="arrow-dropright"></ion-icon>
+        <h2 id='learn-text'>Why you need a great digital footprint</h2><ion-icon id='learn-arrow' name="arrow-dropright"></ion-icon>
       </div></Link>
     </div>
   )
