@@ -1,6 +1,7 @@
 var fs = require('fs');
 var http = require('http');
 var express = require('express')
+const path = require('path')
 var app = express();
 //so app is a function that has methods and properties
 
@@ -13,11 +14,11 @@ var port = process.env.PORT || 8080;
 // app.get('/', function(req, res){
 // 	res.sendFile('./src/index.html', {root: __dirname });
 	//you don't need to specify a content-type. the express methods and express response object (wrapper around http_parser res object) looks at what you're sending and takes care of it.
-})
+// })
 //this is the routing part. It gives you the request and response objects to work with. When you receive a GET request to /, do this...
 
-const path = require('path')
-app.get('*', (req, res)=>{  res.sendFile(path.join(__dirname, '../build/index.html'));})
+
+app.get('*', (req, res)=>{  res.sendFile(path.join(__dirname, './src/index.html'));})
 
 app.listen(port, (req, res)=>{console.log(`server listening on port: ${port}`)});
 //the listen method in express does all the work that the http.createServer method does.
