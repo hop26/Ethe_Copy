@@ -1,0 +1,26 @@
+Overall:{
+  max-width:1940px
+}
+
+iPad landscape (1024 x 768)
+
+Medium (1366 x 768){
+  width: 1316 (96% of 1366)
+  left/right:25,
+  top: 50,
+  screen width: 1366;
+}
+
+Large (1920 x 1080){
+  width: 1756 (91% of 2560)
+  top: 65,
+  left/right: 82
+}
+
+4k (2560 x 1340){
+  width: 1940 (76% of 2560)
+  top: 88,
+  left/right: 310
+  max-width:1940
+
+}

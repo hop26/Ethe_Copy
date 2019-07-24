@@ -1,0 +1,470 @@
+#above-fold{
+height: 100vh;
+background-image: url("images/reach.jpeg");
+background-position: -59em 0px;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+position: absolute;
+width: 100vw;
+left: 0px;
+top:0px;
+z-index:2
+}
+
+#above-title{
+  position: relative;
+  top: 231px;
+  text-align:center;
+  font-family: acier-bat-gris, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.8em;
+}
+
+#above-fold-content{
+
+}
+
+.view{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* -------------OurWork----------------- */
+
+#ourWork-view{
+  opacity:0;
+  transition:opacity 1s;
+  padding-top:106vh;
+  z-index: 1
+}
+
+.ourWork-icon{
+  width: 70px;
+}
+
+#ourWork-content{
+
+}
+
+.ourWork-statement{
+  font-family: raleway;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.ourWork-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: .5px solid rgba(128, 128, 128, .5);
+  padding: 5px 0px 44px 0px;
+
+}
+
+.ourWork-service-div{
+  width: 308px;
+    /* border: 1px solid; */
+    position: relative;
+    left: -18px;
+    font-family:rockwell;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.ourWork-service{
+  margin: 0;
+font-family: Raleway;
+font-size: 20px;
+font-weight: 900;
+
+}
+
+.ourWork-description-div{
+  width:245px;
+}
+
+.ourWork-description-text{
+  font-family: Muli;
+  font-size:15px;
+}
+
+#learn-div{
+  display:flex;
+  padding: 10px 0px;
+  justify-content: flex-end;
+
+}
+#learn-text{
+  font-size:14px;
+  font-weight: bold;
+  margin:0;
+  text-decoration: underline;
+  font-family: Muli;
+  color:black;
+}
+#learn-arrow{
+  font-size:20px;
+}
+
+/* -------------DigitalMatters----------------- */
+
+
+/* -------------PastProjects----------------- */
+
+#projects-div{
+  display: flex;
+flex-direction: column;
+}
+
+#projects-view{
+  opacity:0;
+  transition:opacity 1s;
+}
+
+.project-image{
+  margin: 10px 0px 0px 0px;
+    width: 98%;
+    align-self: center;
+}
+
+.page-title-box{
+  text-align:right;
+}
+
+.page-title-text{
+border: 1px solid black;
+width: auto;
+float: right;
+padding: 7px;
+font-family: Poppins;
+color:white;
+background:black;
+position:relative;
+right:1px;
+margin: 5px 5px 0px 0px;
+}
+
+@media screen and (min-width: 375px){
+  #ourWork-view{
+    padding-top:90vh;
+  }
+
+}
+
+@media screen and (min-width: 1366px){
+  #above-fold{
+    background-position: 0 0;
+  }
+  .ourWork-div {
+    padding:0px;
+    align-items: center;
+    width:32%;
+    flex-direction:column;
+    justify-content: flex-start;
+    border-bottom:0px;
+}
+#ourWork-content{
+    display:flex;
+    justify-content: space-between;
+}
+#ourWork-view{
+
+  padding-top:106vh;
+  
+}
+.ourWork-service-div {
+    text-align:center;
+    width:100%;
+    margin-bottom:30px;
+}
+.ourWork-service{
+  font-size:24px;
+}
+.ourWork-icon{
+  width:155px;
+  margin-bottom:30px;
+}
+.ourWork-description-div{
+  width: auto;
+}
+#learn-div{
+  padding: 0px;
+  margin-bottom: 39px;
+}
+
+#projects-div{
+  flex-direction:row;
+  justify-content: space-between;
+}
+.project-image{
+  width:31.3%;
+}
+
+.page-title-box{
+  text-align:left;
+}
+.page-title-text{
+float: left;
+position: relative;
+  left: 14px;
+  font-size:1.5em;
+  color:white;
+  background:black;
+  padding: 7px;
+
+}
+
+}
+
+@media screen and (min-width:1920px){
+  #above-title{
+    top: 273px;
+  }
+}
+@media screen and (min-width:2460px){
+  #above-title{
+    top: 333px;
+  }
+  .view{
+    /* width: 73%; */
+    /* margin: 0 auto; */
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 380px){
+
+#above-fold{
+  height: 100vh;
+  width: 100%;
+
+  background-image: url("images/reach.jpg");
+  background-size: cover;
+  background-position: 50% 86%;
+}
+
+#front-title-div{
+  position: relative;
+  margin: 0px 4px;
+  top: 253px;
+}
+#front-title{
+  font-family: acier-bat-solid, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size:48px;
+}
+
+#project-div{
+  position:relative;
+  top:43px;
+}
+.project-image{
+  width: 100%;
+    position: relative;
+    top: 18px;
+
+} */
+
+
+
+/* #contact-box{
+  border: 1px solid white;
+
+
+
+}
+.contact-input{
+  width: 317px;
+  height: 33px;
+  border: 2px solid rgba(146, 93, 25, 1);
+  margin-bottom:10px;
+  font-size:18px;
+  font-family: raleway;
+}
+#contact-message{
+height: 100%;
+}
+
+.contact-word{
+  margin: 0;
+    color: white;
+    font-family: raleway;
+    font-size: 20px;
+}
+
+#contact-form{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  top: 4em;
+}
+
+.contact-first4{
+  display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+#submit-button-div{
+  width: 50%;
+
+position: absolute;
+display: flex;
+justify-content: center;
+align-self: flex-end;
+margin-top: 64px;
+}
+#submit-button{
+  height: 44px;
+width: 117px;
+border: 2px solid #faf5f5;
+border-radius: 7%;
+font-family: raleway;
+font-size: 19px;
+font-weight: bold;
+background: rgba(0,0,0,0);
+color: white;
+} */
+
+/* #over-lay{
+  color: blue;
+position: fixed;
+height: 100vh;
+width: 100%;
+z-index: 1;
+display:flex;
+
+background: rgba(48, 48, 48, 0.85);
+}
+} */
+
+/* @media screen and (min-width:1366px){
+
+#above-fold{
+  height: 100vh;
+  width: 100%;
+
+  background-image: url("images/reach.jpg");
+  background-size: cover;
+  background-position: 50% 86%;
+}
+
+
+
+#front-title-div{
+  position: relative;
+  margin: 0px 4px;
+  top: 253px;
+}
+#front-title{
+  font-family: acier-bat-solid, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size:48px;
+}
+
+
+.project-image{
+  width: 415px;
+    position: relative;
+    top: 18px;
+    margin-left: 34px;
+} */
+
+/* #contact-box{
+  border: 1px solid white;
+width: 50%;
+
+
+}
+.contact-input{
+  width: 317px;
+  height: 33px;
+  border: 2px solid rgba(146, 93, 25, 1);
+  margin-bottom:10px;
+  font-size:18px;
+  font-family: raleway;
+}
+#contact-message{
+height: 100%;
+}
+
+.contact-word{
+  margin: 0;
+    color: white;
+    font-family: raleway;
+    font-size: 20px;
+}
+
+.contact-first4{
+  display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+#submit-button-div{
+  width: 50%;
+
+position: absolute;
+display: flex;
+justify-content: center;
+align-self: flex-end;
+margin-top: 64px;
+}
+#submit-button{
+  height: 44px;
+width: 117px;
+border: 2px solid #faf5f5;
+border-radius: 7%;
+font-family: raleway;
+font-size: 19px;
+font-weight: bold;
+background: rgba(0,0,0,0);
+color: white;
+} */
+
+/* #over-lay{
+  color: blue;
+position: fixed;
+height: 100vh;
+width: 100%;
+z-index: 1;
+display:flex;
+
+background: rgba(48, 48, 48, 0.85);
+}
+} */
