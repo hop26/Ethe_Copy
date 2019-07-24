@@ -4,7 +4,8 @@ import '../styles/main.css';
 // import '../styles/header_test.css';
 // import '../styles/ourWork.css';
 import '../styles/contact.css';
-import '../styles/images/e2.png';
+// import '../styles/images/e2.png';
+require('../styles/images/e2.png');
 import PageTitle from '../flex_Components/page-title'
 import '../styles/images/old_ethe.png';
 import { HashRouter, Switch, Link, Route, Redirect } from "react-router-dom";
