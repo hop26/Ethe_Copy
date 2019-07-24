@@ -27,8 +27,8 @@ module.exports = {
       },
       {
     test: /\.(png|svg|jpg|gif|jpeg|ttf)$/,
-    use: 'file-loader'
-    //preprocesses imported image files
+    use: 'url-loader'
+
     },
     ]
   },
