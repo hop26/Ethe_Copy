@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/app'
-// import Values from './components/values';
-const Values = require('./components/values');
+import Values from './components/values';
 import Header from './components/header';
 import DigitalMatters from './components/digital-matters'
 import './styles/project.css'
